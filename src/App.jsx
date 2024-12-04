@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import BarChart from './components/BarChart';
+import LineChart from './components/LineChart';
+import ScatterChart from './components/ScatterChart';
+import BubbleChart from './components/BubbleChart';
 
 const App = () => {
   const [chartData, setChartData] = useState(null);

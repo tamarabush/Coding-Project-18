@@ -8,7 +8,7 @@ const App = () => {
   const [chartData, setChartData] = useState(null);
 
   useEffect(() => {
-    fetch('/financial_data.json')
+    fetch('/data.json')
       .then((response) => response.json())
       .then((data) => setChartData(data))
       .catch((error) => console.error('Error fetching data:', error));

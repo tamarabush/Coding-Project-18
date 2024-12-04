@@ -3,6 +3,7 @@ import BarChart from './components/BarChart';
 import LineChart from './components/LineChart';
 import ScatterChart from './components/ScatterChart';
 import BubbleChart from './components/BubbleChart';
+import './App.css'; 
 
 const App = () => {
   const [chartData, setChartData] = useState(null);

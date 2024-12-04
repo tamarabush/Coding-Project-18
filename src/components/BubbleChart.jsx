@@ -20,11 +20,16 @@ const BubbleChart = ({ data }) => {
 
   const options = {
     scales: {
-      x: {
-        beginAtZero: true,
-      },
       y: {
         beginAtZero: true,
+        grid: {
+          color: '#444', // Darker grid lines
+        },
+      },
+      x: {
+        grid: {
+          color: '#444', // Darker grid lines
+        },
       },
     },
   };
